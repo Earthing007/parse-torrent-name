@@ -74,7 +74,7 @@ class PTN(object):
                 index["clean"] = 0
 
             if key in types.keys() and types[key] == "boolean":
-                clean = true
+                clean = True
             else:
                 clean = match[index["clean"]]
                 if key in types.keys() and types[key] == "integer":
